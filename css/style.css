@@ -5,14 +5,14 @@
 .manu-container{
     background-color: rgb(56, 54, 54);
     color: white;
-    height: 30px;
+    height: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 10px;
 }
 .logoimages{
-    height: 28px;
+    height: 30px;
 }
 .manus{
     display: flex;
@@ -29,26 +29,140 @@
 .main-container{
     height: 100vb;
     color: white;
-    background-image: url("./images/background.png"),linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);
+    background-image: url("/images/background.png"),linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 .headding1{
-    font-size: 38px;
+    font-size: 50px;
 }
 .descriptions{
-    font-size: 15px;
+    font-size: 25px;
     margin: 10px 0px;
 }
 .image-right{
-    height: 200px;
+    height: 350px;
 }
 .btn{
     background-color: red;
     color: white;
-    padding: 10px 12px;
+    padding: 15px 20px;
     border: none;
     border-radius: 3px;
-    font-size: 10px;
+    font-size: 20px;
+}
+/* About us strat frome here */
+.about-us-container{
+    background-color: rgb(238, 232, 229);
+    padding: 35px;
+    justify-content: center;
+}
+.h1aboutus{
+    font-size: 50px;
+    text-align: center;
+}
+.box-main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.section-image{
+    height: 300px;
+}
+.box-left-h2{
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+/* our services strat frome here */
+.our-services{
+    background-image: url('/images/background.png'),linear-gradient(45deg,rgb(5, 5, 5), #2e2e2e);
+    color: white;
+    padding: 35px 0px;
+}
+.ourh1{
+    margin-bottom: 25px;
+}
+.main-box-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box-1{
+    height: 340px;
+    background-color: black;
+    width: 210px;
+    box-shadow: 1px 1px 100px rgb(90, 87, 87);
+    border-radius: 7px;
+    text-align: center;
+    padding: 25px;
+}
+.box-1-icon{
+    height: 100px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+.box-1-h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.box-1-p{
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.box-1-btn{
+    background-color: rgb(238, 232, 229);
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+/* footer section strat frome here */
+.footer-container{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+.footer-logo{
+    width: 160px;
+    margin-bottom: 20px;
+}
+.box-1-p{
+    font-size: 18px;
+}
+.footer-box-2-h4{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.footer-item{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.footer-box-3-h4{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.footer-box-4-h4{
+    font-size: 20px;
+    padding-bottom: 25px;
+}
+.footer-items{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.footer-box-4{
+    margin-left: 100px;
+}
+.footer-box-3{
+    margin-left: 100px;
+}
+.footer-box-2{
+    margin-left: 100px;
+}
+.hr{
+    color: wheat;
 }
