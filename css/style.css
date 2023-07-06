@@ -3,9 +3,9 @@
     padding: 0px;
 }
 .manu-container{
-    background-color: rgb(36, 35, 35);
+    background-color: rgb(56, 54, 54);
     color: white;
-    height: 40px;
+    height: 30px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -24,4 +24,31 @@
 }
 .item:hover{
     color: blueviolet;
+}
+/*main-container-strat frome here*/
+.main-container{
+    height: 100vb;
+    color: white;
+    background-image: url("./images/background.png"),linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.headding1{
+    font-size: 38px;
+}
+.descriptions{
+    font-size: 15px;
+    margin: 10px 0px;
+}
+.image-right{
+    height: 200px;
+}
+.btn{
+    background-color: red;
+    color: white;
+    padding: 10px 12px;
+    border: none;
+    border-radius: 3px;
+    font-size: 10px;
 }
