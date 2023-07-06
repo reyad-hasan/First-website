@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.manu-container{
+    background-color: rgb(36, 35, 35);
+    color: white;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.logoimages{
+    height: 28px;
+}
+.manus{
+    display: flex;
+    list-style: none;
+}
+.item{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.item:hover{
+    color: blueviolet;
+}
